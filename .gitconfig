@@ -1,0 +1,16 @@
+[user]
+       email = Eugene.Kudashev@gmail.com
+
+[color]
+       status = auto
+       branch = auto
+       diff = auto
+
+[alias]
+       ci = commit
+       st = status
+       up = pull --rebase
+       put = push origin HEAD
+       glog = log --graph --pretty=format:'%Cred%h%Creset-%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+       editor = mate
