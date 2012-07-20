@@ -16,4 +16,15 @@ alias gitx='/Applications/GitX.app/Contents/Resources/gitx'
 alias cl='clear'
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
-set completion-ignore-case on
+alias ug='echo root@10.78.16.$1'
+
+kotan() { ssh root@10.78.16.$1 "\"sv restart nptv-player"\"; }
+kotanst() { ssh root@10.78.7.$1 "\"sv restart nptv-player"\"; }
+utug() { ssh root@10.78.16.$1; }
+utugst() { ssh root@10.78.7.$1; }
+spif() { ssh root@10.78.16.$1 "\"sv restart spief-player ; sv restart spief-checker\""; }
+
+# clish -c 'playback stop' ; clish -c 'playback start'
+# BY nettops
+
+alias upl='ftp -u ftp://EugeneKudashev:*********@eugenekudashev.com/wwwroot/eugenekudashev.com/davaj/index.html index.html'
